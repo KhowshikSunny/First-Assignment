@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Style */
+.primary-color {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+}
+
+.p-title {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(36, 50, 48, 0.5);
+}
+
+.s-btn {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+
+/* font awesome */
+.raleway-normal> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Header Section Start */
+header {
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    height: 698px;
+}
+
+/* Header Section Start */
+/* -------------------------- */
+/* Nav Section Start */
+.nav-section {
+    max-width: 1140px;
+    height: 151px;
+    margin: 0 auto;
+    margin-bottom: 158px;
+
+
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+
+
+
+
+}
+
+.nav-section .logo {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+
+
+}
+
+.nav-section .btn {
+    width: 132px;
+    height: 48px;
+}
+
+/* Nav Section end */
+
+
+/* hero Section start */
+.hero {
+
+    width: 905px;
+    height: 152px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.hero-heading h1 {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 37px;
+}
+
+
+.hero button {
+    width: 174px;
+    height: 48px;
+    margin-bottom: 152px;
+}
+
+/* hero Section end */
+
+
+/* action Section start */
+
+.action-section {
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.action-heading {
+    max-width: 517px;
+    height: 203px;
+    margin: 63px 0px;
+}
+
+.action-heading h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-title {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(36, 50, 48, 0.5);
+    margin-bottom: 23px;
+}
+
+.action-btn {
+    width: 229px;
+    height: 48px;
+
+}
+
+.action-img img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+
+/* action Section end */
