@@ -30,8 +30,16 @@
     font-size: 16px;
     line-height: 150%;
     font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.8s;
 }
 
+.s-btn:hover {
+    color: black;
+    background-color: #FFB805;
+}
+
+/* ===================================== */
 body {
     background-color: #D6DDED;
     margin-top: -22px;
@@ -61,25 +69,19 @@ header {
 }
 
 /* Header Section Start */
-/* -------------------------- */
+/* ================================= */
 /* Nav Section Start */
 .nav-section {
     max-width: 1140px;
     height: 151px;
     margin: 0 auto;
     margin-bottom: 158px;
-
-
 }
 
 .nav-header {
     display: flex;
     justify-content: space-between;
     padding: 50px 0px;
-
-
-
-
 }
 
 .nav-section .logo {
@@ -87,8 +89,6 @@ header {
     color: #4E47FF;
     font-size: 34px;
     font-weight: 900;
-
-
 }
 
 .nav-section .btn {
@@ -97,11 +97,9 @@ header {
 }
 
 /* Nav Section end */
-
-
+/* ============================ */
 /* hero Section start */
 .hero {
-
     width: 905px;
     height: 152px;
     margin: 0 auto;
@@ -117,7 +115,6 @@ header {
     margin-bottom: 37px;
 }
 
-
 .hero button {
     width: 174px;
     height: 48px;
@@ -125,10 +122,8 @@ header {
 }
 
 /* hero Section end */
-
-
+/* ========================== */
 /* action Section start */
-
 .action-section {
     width: 1140px;
     height: 328px;
@@ -138,8 +133,6 @@ header {
 .action-content {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .action-heading {
@@ -166,7 +159,6 @@ header {
 .action-btn {
     width: 229px;
     height: 48px;
-
 }
 
 .action-img img {
@@ -175,10 +167,8 @@ header {
     border-radius: 48px;
 }
 
-
 /* action Section end */
-
-
+/* ========================== */
 /* productivity Section start */
 .productive-user {
     max-width: 1140px;
@@ -188,7 +178,6 @@ header {
     margin: 50px auto;
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
-
 }
 
 .productive-title h3 {
@@ -196,8 +185,6 @@ header {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 40px;
-
-
 }
 
 .productivity {
@@ -220,9 +207,9 @@ header {
     color: rgba(36, 50, 48, 0.5);
 }
 
+/* productivity Section end */
+/* ================================= */
 /* feedback section start  */
-
-
 .feedback {
     width: 1140px;
     height: 342px;
@@ -231,7 +218,6 @@ header {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-
 }
 
 .feed-title h3 {
@@ -241,8 +227,6 @@ header {
     text-align: center;
     color: #252432;
     margin-bottom: 50px;
-
-
 }
 
 .feed-title {
@@ -286,16 +270,13 @@ header {
 .reviwer {
     display: flex;
     justify-content: start;
-
 }
 
 .reviwer-img img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-
 }
-
 
 .reviwer-name {
     margin-left: 14px;
@@ -314,13 +295,13 @@ header {
 }
 
 /* feedback section End  */
-
+/* ============================= */
 /* focus section start  */
 .focus-section {
     width: 1140px;
     height: 696.77;
     border-radius: 14px;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
     margin: auto;
     margin-top: 137px;
 }
@@ -338,7 +319,6 @@ header {
     text-align: center;
     color: #252432;
     margin-bottom: 20px;
-
 }
 
 .focus-content p {
@@ -361,11 +341,9 @@ header {
 }
 
 /* focus section end  */
-
-
-
+/* ========================== */
 /* contact section start */
-.contact{
+.contact {
     max-width: 1140px;
     height: 632px;
     margin: auto;
@@ -373,30 +351,34 @@ header {
     margin-bottom: 71px;
     display: flex;
     justify-content: space-between;
-    
 }
-.contact-title{
+
+.contact-title {
     width: 528px;
     height: 232px;
     margin-top: 200px;
-    
 }
-.contact-title h1{
+
+.contact-title h1 {
     font-size: 97px;
     font-family: "Raleway", sans-serif;
     color: #252432;
     font-weight: bold;
     line-height: 120%;
 }
+
 .contact-form {
     width: 497px;
     height: 490px;
     margin-top: 30px;
 }
-.contact-form label{
+
+.contact-form label {
     font-weight: bold;
 }
-.contact-form input[type="email"], input[type="text"] {
+
+.contact-form input[type="email"],
+input[type="text"] {
     border-radius: 10px;
     background-color: #FFFFFF;
     border: 1px solid #D6DDED;
@@ -406,6 +388,7 @@ header {
     font-size: 20px;
     padding: 20px 32px;
 }
+
 .contact-form textarea {
     font-size: 20px;
     border-radius: 10px;
@@ -416,7 +399,57 @@ header {
     padding: 13px 31px;
     margin-bottom: 20px;
 }
+
 .contact-form button {
     width: 472px;
 }
+
 /* contact section end */
+/* ======================= */
+/* Footer section Start */
+
+footer {
+    max-width: 1440px;
+    height: 428px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.footer-main {
+    width: 531px;
+    height: 221px;
+    margin: 104px auto;
+}
+
+.footer-content {
+    padding: 104px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    text-align: center;
+    color: rgba(36, 50, 48, 0.5);
+    margin-bottom: 20px;
+}
+
+.footer-content h1 {
+    font-size: 100px;
+    color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 8px;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: rgba(36, 50, 48, 0.5);
+    cursor: pointer;
+}
+
+.links ul li a {
+    text-decoration: none;
+}
+
+/* Footer section end */
+/* =================================== */
