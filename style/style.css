@@ -314,3 +314,86 @@ header {
 }
 
 /* feedback section End  */
+
+/* focus section start  */
+.focus-section {
+    width: 1140px;
+    height: 696.77;
+    border-radius: 14px;
+    background-color:#FFFFFF ;
+    margin: auto;
+    margin-top: 137px;
+}
+
+.focus-content {
+    text-align: center;
+    padding: 71px 150px;
+}
+
+.focus-content h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 20px;
+
+}
+
+.focus-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(36, 50, 48, 0.5);
+}
+
+.focus-content button {
+    width: 210px;
+    height: 48px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.focus-content img {
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+
+/* focus section end  */
+
+
+
+/* contact section start */
+.contact{
+    max-width: 1140px;
+    height: 632px;
+    margin: auto;
+    margin-top: 92.23px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.contact-title{
+    align-items: center;
+    
+}
+.contact-title h1{
+    font-size: 97px;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    font-weight: bold;
+    line-height: 120%;
+}
+.contact-form input[type="email"],input[type="text"], textarea{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 20px 271px 20px 37px;
+
+}
+/* contact section end */
