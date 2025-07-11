@@ -370,12 +370,15 @@ header {
     height: 632px;
     margin: auto;
     margin-top: 92.23px;
+    margin-bottom: 71px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    
 }
 .contact-title{
-    align-items: center;
+    width: 528px;
+    height: 232px;
+    margin-top: 200px;
     
 }
 .contact-title h1{
@@ -385,15 +388,35 @@ header {
     font-weight: bold;
     line-height: 120%;
 }
-.contact-form input[type="email"],input[type="text"], textarea{
+.contact-form {
+    width: 497px;
+    height: 490px;
+    margin-top: 30px;
+}
+.contact-form label{
+    font-weight: bold;
+}
+.contact-form input[type="email"], input[type="text"] {
     border-radius: 10px;
     background-color: #FFFFFF;
     border: 1px solid #D6DDED;
     display: block;
-    width: 100%;
+    width: 82%;
     margin-bottom: 20px;
     font-size: 20px;
-    padding: 20px 271px 20px 37px;
-
+    padding: 20px 32px;
+}
+.contact-form textarea {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    display: block;
+    width: 82%;
+    padding: 13px 31px;
+    margin-bottom: 20px;
+}
+.contact-form button {
+    width: 472px;
 }
 /* contact section end */
