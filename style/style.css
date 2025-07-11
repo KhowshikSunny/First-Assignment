@@ -252,6 +252,7 @@ header {
     width: 366.67px;
     height: 243px;
     padding: 24px;
+    border: 1px solid #F2EDED;
     border-radius: 14px;
     background-color: #FFFFFF;
 }
