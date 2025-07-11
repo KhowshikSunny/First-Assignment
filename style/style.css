@@ -9,6 +9,10 @@
     color: #FFFFFF;
 }
 
+.heading-color {
+    color: #252432;
+}
+
 .p-title {
     font-size: 23px;
     font-weight: 400;
@@ -102,6 +106,7 @@ header {
 .hero-heading h1 {
     font-size: 65px;
     font-weight: bold;
+    color: #252432;
     text-align: center;
     font-family: "Raleway", sans-serif;
     margin-bottom: 37px;
@@ -167,3 +172,44 @@ header {
 
 
 /* action Section end */
+
+
+/* productivity Section start */
+.productive-user {
+    max-width: 1140px;
+    max-height: 306px;
+    padding: 50px 80px;
+    border-radius: 24px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+
+}
+
+.productive-title h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.productivity {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.productivity-title h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.count-description {
+    font-size: 20px;
+    color: rgba(36, 50, 48, 0.5);
+}
